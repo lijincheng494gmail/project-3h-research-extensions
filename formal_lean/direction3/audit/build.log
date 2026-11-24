@@ -1,0 +1,27 @@
+Lean (version 4.19.0, arm64-apple-darwin23.6.0, commit 6caaee842e94, Release)
+Lake version 5.0.0-6caaee8 (Lean version 4.19.0)
+$ lake build
+ℹ [2139/2140] Built Direction3
+info: ././././Direction3.lean:314:0: 'Direction3.denominators' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:315:0: 'Direction3.field_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:316:0: 'Direction3.consumer_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:317:0: 'Direction3.target_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:318:0: 'Direction3.flux_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:319:0: 'Direction3.target_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:320:0: 'Direction3.consumer_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:321:0: 'Direction3.axis_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:322:0: 'Direction3.nonnegative_quadrant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:323:0: 'Direction3.ablation_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:324:0: 'Direction3.ablation_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:325:0: 'Direction3.lift_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:326:0: 'Direction3.opposed_rates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:327:0: 'Direction3.consumer_rate_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:328:0: 'Direction3.consumer_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:329:0: 'Direction3.scaling_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:330:0: 'Direction3.scaling_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:331:0: 'Direction3.rmse_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:332:0: 'Direction3.rmse_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:333:0: 'Direction3.rmse_strict_ranking' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction3.lean:334:0: 'Direction3.observed_keys' does not depend on any axioms
+info: ././././Direction3.lean:335:0: 'Direction3.observed_early_rises' does not depend on any axioms
+Build completed successfully.

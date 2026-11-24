@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=22mm,right=22mm,top=24mm,bottom=27mm,footskip=12mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{amsmath,amsthm,mathtools,newtxmath}
+\usepackage{microtype,graphicx,booktabs,array,tabularx,multirow,makecell,enumitem,float,placeins}
+\usepackage{xcolor,listings,caption,subcaption,titlesec,fancyhdr}
+\usepackage[colorlinks=true,urlcolor=accent,linkcolor=ink,bookmarksnumbered=true,pdfpagemode=UseOutlines,pdftitle={Appendix — Research Extensions},pdfsubject={Project 3H. Three extensions of the coursework predator–prey model}]{hyperref}
+\usepackage{bookmark}
+\definecolor{ink}{HTML}{152D3A}
+\definecolor{accent}{HTML}{195569}
+\definecolor{faint}{HTML}{E3ECEE}
+\definecolor{soft}{HTML}{F4F7F8}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 1pt minus 1pt}
+\setlist{topsep=3pt,itemsep=2pt,parsep=0pt}
+\titleformat{\section}{\Large\bfseries\color{ink}}{\thesection}{.5em}{}
+\titleformat{\subsection}{\large\bfseries\color{accent}}{\thesubsection}{.5em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{ink}}{\thesubsubsection}{.5em}{}
+\titlespacing*{\section}{0pt}{0pt plus 2pt}{8pt}
+\titlespacing*{\subsection}{0pt}{10pt plus 2pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{7pt plus 2pt}{2pt}
+\captionsetup{hypcap=false,font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,skip=5pt}
+\lstset{basicstyle=\small\ttfamily,keywordstyle=\bfseries\color{accent},commentstyle=\color{gray},showstringspaces=false,breaklines=true,columns=fullflexible,keepspaces=true,backgroundcolor=\color{soft},frame=single,framerule=.35pt,rulecolor=\color{faint},framesep=4pt,xleftmargin=5pt,xrightmargin=5pt,aboveskip=6pt,belowskip=6pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyfoot[R]{\small\sffamily\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\raggedbottom
+\newcommand{\startdirection}[2]{%
+  \clearpage
+  \pdfbookmark[0]{Direction #1. #2}{direction-#1}\phantomsection\label{start:#1}%
+  \setcounter{equation}{0}\setcounter{figure}{0}\setcounter{table}{0}%
+  \renewcommand{\theequation}{#1.\arabic{equation}}%
+  \renewcommand{\thefigure}{#1.\arabic{figure}}\renewcommand{\thetable}{#1.\arabic{table}}%
+  \renewcommand{\theHequation}{d#1.\arabic{equation}}%
+  \renewcommand{\theHfigure}{d#1.\arabic{figure}}\renewcommand{\theHtable}{d#1.\arabic{table}}%
+}
+\begin{document}
+\pdfbookmark[0]{Appendix — Research Extensions}{appendix-home}
+{\fontsize{25}{28}\selectfont\bfseries\color{ink}Appendix --- Research Extensions\par}
+\vspace{3pt}
+The three studies use the same coursework equation as their starting point. Each chapter pairs its results with figures, mathematical proofs, Python code, and Lean verification.\par
+\vspace{4pt}
+\input{front-results}
+\vfill
+{\small\sffamily\color{accent}\textbf{Full results, figures, proofs, and verification}\par}
+\vspace{3pt}
+{\small\hyperref[start:1]{Direction 1\quad Predation mechanisms}\dotfill\pageref{start:1}\par
+\hyperref[start:2]{Direction 2\quad Growth and competition}\dotfill\pageref{start:2}\par
+\hyperref[start:3]{Direction 3\quad Cross-domain prediction}\dotfill\pageref{start:3}\par}
+\startdirection{1}{Predation mechanisms and enrichment}
+\input{d1/chapter}
+\startdirection{2}{Prey growth and predator competition}
+\input{d2/chapter}
+\startdirection{3}{Cross-domain prediction}
+\input{d3/chapter}
+\input{references}
+\end{document}

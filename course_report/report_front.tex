@@ -1,0 +1,15 @@
+{\raggedright\noindent\LARGE\bfseries Coexistence, stability and bifurcation in a predator--prey model with weak Allee growth and a foraging-arena response\par}
+\vspace{.8em}{\noindent\large Project 3H (Version B)\par}\vspace{1.05em}
+\noindent\textbf{Executive summary.}
+The invasion ratio \(R=emk/(d\beta)\) separates predator extinction from uniform persistence. When \(R>1\), an explicit cubic classifies the positive equilibria. Depending on its roots and the local stability conditions, the model can have a single attracting coexistence state, two stable states with different basins, or a periodic attractor. We establish sufficient global conditions using Lyapunov functions, a Dulac test and a Li\'enard transformation. We identify transcritical, saddle-node, cusp, Hopf, Bogdanov--Takens and generalized Hopf bifurcations. Numerical examples show how the trajectories change across thresholds in predation and carrying capacity and how the two basins are separated. Three literature-informed scenarios compare prey growth rates within a common parameter setting. Local stochastic examples give mean-square stability conditions for independent white noise and common colored noise.
+
+\medskip\noindent\textbf{Keywords}\quad Weak Allee effect \(\cdot\) Predator interference \(\cdot\) Phase portraits \(\cdot\) Bifurcation
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+A weak Allee effect allows prey per-capita growth to increase at low density while remaining positive at zero density. Predator interference acts through a foraging-arena response in which intake per predator decreases as predator density rises. Together these mechanisms change both the conditions for predator invasion and the possible outcomes after invasion. In particular, persistence can be consistent with more than one coexistence state or with sustained oscillation.
+
+\citet{haque11} organized the analysis of a predator--prey system around permanence, local and global stability, bifurcation, stochastic stability, and numerical examples. We follow that programme for the ordinary differential equation displayed in the Version B brief \citep{brief}. Haque's Beddington--DeAngelis response depends on both prey and predator density in its denominator, and his main numerical model includes predator self-limitation. Here the denominator is \(\beta+y\) and the displayed predator equation contains linear mortality. These differences change the coexistence equation and the bifurcation thresholds. \citet{haque09} gives a complementary comparison for an explicitly ratio-dependent response.
+
+The analytical sections identify the hypotheses for each qualitative result. The numerical sections pair parameter values and phase portraits with equilibrium, stability or return-map checks. We use constructed cases to isolate dynamical mechanisms and literature-informed cases to examine sensitivity to prey growth. Appendix~\ref{sec:figurecode} gives the path of the Python script for each figure.

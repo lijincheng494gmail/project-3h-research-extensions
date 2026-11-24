@@ -1,0 +1,68 @@
+Lean (version 4.19.0, arm64-apple-darwin23.6.0, commit 6caaee842e94, Release)
+Lake version 5.0.0-6caaee8 (Lean version 4.19.0)
+$ lake build
+⚠ [1852/1855] Built D1Core
+warning: ././././D1Core.lean:38:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././D1Core.lean:48:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././D1Core.lean:98:0: 'D1Core.reciprocal_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Core.lean:99:0: 'D1Core.reciprocal_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Core.lean:100:0: 'D1Core.endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Core.lean:101:0: 'D1Core.all_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Core.lean:102:0: 'D1Core.criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1853/1855] Built Direction1
+warning: ././././Direction1.lean:46:44: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ././././Direction1.lean:46:44: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: ././././Direction1.lean:52:101: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:53:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:74:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:78:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:82:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:86:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:105:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:111:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:138:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:139:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:139:59: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:160:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:214:45: unused variable `hd`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: ././././Direction1.lean:219:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:224:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction1.lean:224:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Direction1.lean:541:0: 'Direction1.branch_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:542:0: 'Direction1.physical_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:543:0: 'Direction1.negative_curvature_three_holling_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:544:0: 'Direction1.jac_on_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:545:0: 'Direction1.trace_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:546:0: 'Direction1.ray_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:547:0: 'Direction1.realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:548:0: 'Direction1.chart_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction1.lean:549:0: 'Direction1.pointwise_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1854/1855] Built D1Example
+info: ././././D1Example.lean:113:0: 'D1Example.weak_allee_P4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:115:0: 'D1Example.exact_physical_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:116:0: 'D1Example.exact_equilibrium' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:117:0: 'D1Example.exact_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:118:0: 'D1Example.exact_trace_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:119:0: 'D1Example.exact_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D1Example.lean:120:0: 'D1Example.exact_enrichment' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

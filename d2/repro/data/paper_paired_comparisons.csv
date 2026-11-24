@@ -1,0 +1,25 @@
+scaling,contrast_type,from_model,to_model,n_pairs,mean_delta_prey,mean_delta_predator,min_delta_predator,max_delta_predator,n_positive,n_negative,summary_population
+reference_growth_matched,competition,M0,M4,24,0.6414971793728856,-0.6760862814551681,-1.677183285957427,-0.1070735916738705,0,24,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,competition,M1,M3,24,0.4360322023596613,-1.0314716784271047,-1.9334109934701875,-0.356011904927604,0,24,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,competition,M2,M5,24,0.7590041243863278,0.3534674691675373,-1.565677557634981e-28,3.162834073545531,3,0,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_h0,M0,M2,24,-3.918835530389547,-2.972538231698984,-3.833231399608057,-1.9013648103704233,0,24,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_h0,M1,M0,24,-0.3792847721401235,-0.46495183511055344,-1.441250360667845,-0.0448474587197269,0,24,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_h0,M1,M2,24,-4.298120302529671,-3.437490066809538,-4.473127248537481,-2.332066185586711,0,24,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_hplus,M3,M4,24,-0.17381979512689924,-0.10956643813861684,-0.4112175551180379,0.0406034952132605,6,18,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_hplus,M3,M5,24,-3.9751483805030037,-2.052550919214896,-2.808463136956328,0.53837021209584,3,21,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,growth_hplus,M4,M5,24,-3.8013285853761047,-1.942984481076279,-2.8084111526783313,0.4977667168825794,3,21,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,interaction_strong_vs_logistic,M1->M3,M2->M5,24,0.32297192202666647,1.3849391475946422,0.356011904927604,4.216897315731703,24,0,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,interaction_strong_vs_weak,M0->M4,M2->M5,24,0.11750694501344221,1.0295537506227055,0.1070735916738705,4.044483287096598,24,0,8 sampled scenarios x 3 initial states; finite design
+reference_growth_matched,interaction_weak_vs_logistic,M1->M3,M0->M4,24,0.20546497701322422,0.3553853969719365,0.0830548457622537,1.1201636169676823,24,0,8 sampled scenarios x 3 initial states; finite design
+same_r,competition,M0,M4,24,0.26658853187764847,-2.432300415005859,-4.364783269136408,-0.8900391619300749,0,24,8 sampled scenarios x 3 initial states; finite design
+same_r,competition,M1,M3,24,0.4360322023596613,-1.0314716784271047,-1.9334109934701875,-0.356011904927604,0,24,8 sampled scenarios x 3 initial states; finite design
+same_r,competition,M2,M5,24,0.32006773499271307,-0.37132629991160687,-3.799783831451744,2.4689537936458223,1,6,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_h0,M0,M2,24,-4.914398703690045,-4.526520240585358,-7.713825373948141,0.3888036106073267,2,22,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_h0,M1,M0,24,2.1007146147979796,2.419737587738678,1.6007773722529484,4.363319556214394,24,0,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_h0,M1,M2,24,-2.8136840888920656,-2.10678265284668,-4.473127248537481,2.771086023415969,6,18,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_hplus,M3,M4,24,1.9312709443159666,1.0189088511599236,0.5321137846464135,1.4000839949067978,24,0,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_hplus,M3,M5,24,-2.929648556259014,-1.4466372743311826,-2.808463136956328,1.4342579253623562,7,17,8 sampled scenarios x 3 initial states; finite design
+same_r,growth_hplus,M4,M5,24,-4.860919500574981,-2.465546125491106,-4.084110614634143,0.2550644621426645,2,22,8 sampled scenarios x 3 initial states; finite design
+same_r,interaction_strong_vs_logistic,M1->M3,M2->M5,24,-0.11596446736694827,0.6601453785154979,-1.8965089371130504,4.40236478711601,18,6,8 sampled scenarios x 3 initial states; finite design
+same_r,interaction_strong_vs_weak,M0->M4,M2->M5,24,0.05347920311506457,2.060974115094252,-0.1337391484646621,6.026920091236706,22,2,8 sampled scenarios x 3 initial states; finite design
+same_r,interaction_weak_vs_logistic,M1->M3,M0->M4,24,-0.1694436704820128,-1.4008287365787544,-3.1375460604948695,-0.53402725700247,0,24,8 sampled scenarios x 3 initial states; finite design

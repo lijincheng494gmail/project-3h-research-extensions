@@ -1,0 +1,11 @@
+diagnostic,value
+deterministic_spectral_abscissa,-0.6399999999999999
+white_moment_spectral_abscissa,-1.0943590696660195
+lyapunov_matrix_min_eigenvalue,0.4917231435431334
+white_dissipation_min_eigenvalue,0.8038951469638245
+lyapunov_residual_inf_norm,1.1102230246251565e-15
+white_moment_matrix_exponential_vs_DOP853_max_error,5.702425700691502e-15
+OU_variance_closed_form_vs_quadrature_max_error,2.220446049250313e-16
+OU_stationary_variance,0.12
+OU_reversion_rate,1.2
+OU_2q_over_theta,0.2

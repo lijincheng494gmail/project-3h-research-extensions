@@ -1,0 +1,34 @@
+Lean (version 4.19.0, arm64-apple-darwin23.6.0, commit 6caaee842e94, Release)
+Lake version 5.0.0-6caaee8 (Lean version 4.19.0)
+$ lake build
+⚠ [1928/1932] Built Direction2
+warning: ././././Direction2.lean:284:96: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Direction2.lean:299:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Direction2.lean:546:0: 'Direction2.Feeding.four_law_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:547:0: 'Direction2.Calibration.logistic_decreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:548:0: 'Direction2.allee_coeff_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:728:0: 'Direction2.Count.root_iff_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:729:0: 'Direction2.Count.weak_three_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:730:0: 'Direction2.Count.strong_three_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:731:0: 'Direction2.Count.allee_at_most_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:733:0: 'Direction2.Params.root_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:734:0: 'Direction2.Params.determinant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:735:0: 'Direction2.Params.branch_derivatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:736:0: 'Direction2.Params.finite_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:737:0: 'Direction2.Calibration.three_model_finite_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:738:0: 'Direction2.Calibration.three_model_local_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:739:0: 'Direction2.Calibration.branch_local_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:740:0: 'Direction2.Calibration.branch_initial_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Direction2.lean:741:0: 'Direction2.unique_of_decreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1929/1932] Built D2Jacobian
+info: ././././D2Jacobian.lean:42:0: 'Direction2.Params.cartesian_det_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1930/1932] Built D2Feeding
+info: ././././D2Feeding.lean:169:0: 'Direction2.Feeding.four_law_cartesian_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D2Feeding.lean:170:0: 'Direction2.Feeding.cartesian_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D2Feeding.lean:171:0: 'Direction2.Feeding.four_law_regular_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1931/1932] Built D2LocalExistence
+info: ././././D2LocalExistence.lean:209:0: 'Direction2.Params.exists_local_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././D2LocalExistence.lean:210:0: 'Direction2.Calibration.exists_three_ordered_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

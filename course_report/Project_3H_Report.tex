@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper,twoside,fleqn]{article}
+\usepackage[inner=29mm,outer=26mm,top=28mm,bottom=29mm,headheight=16pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{amsmath,amsthm,mathtools,newtxmath,microtype}
+\usepackage{booktabs,tabularx,array,graphicx,float,enumitem,titlesec,fancyhdr,placeins}
+\usepackage[round,authoryear]{natbib}
+\renewcommand{\bibfont}{\small\raggedright}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{bookmarksdepth=2,pdftitle={Coexistence, stability and bifurcation},pdfsubject={Project 3H (Version B)}}
+\urlstyle{same}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{\textnormal{#1}}}
+\newcommand{\DOIprefix}{doi:\,}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[LE,RO]{\small\thepage}
+\fancyhead[LO]{\small Weak-Allee growth and a foraging-arena response}
+\fancyhead[RE]{\small Coexistence, stability and bifurcation}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\titleformat{\section}{\large\bfseries}{\thesection.}{.65em}{}
+\titleformat{\subsection}{\normalsize\itshape}{\thesubsection.}{.65em}{}
+\setlength{\mathindent}{1.7em}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\intextsep}{12pt}
+\setlist[enumerate,1]{label=\textup{(\roman*)},leftmargin=2.2em,topsep=4pt,itemsep=3pt}
+\setcounter{tocdepth}{1}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newtheoremstyle{journal}{9pt}{7pt}{\itshape}{}{\bfseries}{.}{.45em}{\thmname{#1}\thmnumber{ #2}\thmnote{ \textup{(#3)}}}
+\theoremstyle{journal}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\claim}[1]{{\normalfont\bfseries\boldmath #1}}
+\renewcommand{\proofname}{\normalfont\bfseries Proof}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Real}{\operatorname{Re}}
+\newcommand{\Q}{\mathcal Q}
+\newcommand{\Det}{\mathcal D}
+\newcommand{\pos}{\mathbb R_{>0}^{\,2}}
+\raggedbottom
+
+\begin{document}
+\thispagestyle{plain}
+\input{report_front}
+\input{theory_body}
+\input{numerical_section}
+\input{stochastic_section}
+\input{report_end}

@@ -1,0 +1,3 @@
+Verified 29 exact root examples, 8 coexistence states, 12 local witnesses, the matched-branch ranks, and 48 shock outcomes. Largest scaled discrepancy over 18 reintegrated paths: 2.5e-08.
+Verified 24 conditional and 24 free-running forecast scores against four measured chemostat records.
+Rebuilt eight vector figures in figures/.

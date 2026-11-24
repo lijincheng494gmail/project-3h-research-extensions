@@ -1,0 +1,3 @@
+model,boundary_type,reference_x_eq,reference_y_eq,A,lower_retained_fraction,upper_retained_fraction,lower_prey_density,upper_prey_density,bracket_width_fraction,lower_outcome_T1600,upper_outcome_T1600,iterations,status,valid_T1600_bracket
+M2,fixed_predator_y_eq_prey_shock,6.915301542189515,4.193935202907822,2.0,0.43477275562286366,0.43477370834350576,3.006584707460774,3.0065912958112997,9.527206421000578e-07,extinction_at_horizon,coexistence_near_equilibrium,20,bracketed,True
+M5,fixed_predator_y_eq_prey_shock,7.0909166032774475,2.4914733973061205,2.0,0.3938181533813476,0.3938191061019897,2.792531682483862,2.7925384381464817,9.527206421000578e-07,extinction_at_horizon,coexistence_near_equilibrium,20,bracketed,True

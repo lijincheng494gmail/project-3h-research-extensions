@@ -1,0 +1,12 @@
+name = "direction2"
+version = "1.0.0"
+defaultTargets = ["Direction2"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.19.0"
+
+[[lean_lib]]
+name = "Direction2"
+roots = ["Direction2", "D2Jacobian", "D2Feeding", "D2LocalExistence"]

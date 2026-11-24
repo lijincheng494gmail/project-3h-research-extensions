@@ -1,0 +1,2 @@
+Rebuilt from an empty project build directory using the same pinned dependency checkouts.
+direction1: lake build passed; audited 44 public theorems.

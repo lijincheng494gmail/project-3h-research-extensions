@@ -1,0 +1,126 @@
+{
+  "ci": [
+    {
+      "cell": "PBT138",
+      "bounds": "reference",
+      "ecological_ci": 0.28797192571641356,
+      "carrgo_ci": 0.33645810450739794,
+      "fixed_dose_ci": 0.6367520397414015,
+      "ecological_wins": 4
+    },
+    {
+      "cell": "HT1080",
+      "bounds": "reference",
+      "ecological_ci": 0.30524008280481246,
+      "carrgo_ci": 0.3735614846390136,
+      "fixed_dose_ci": 0.38245060372101664,
+      "ecological_wins": 5
+    },
+    {
+      "cell": "HT1080",
+      "bounds": "bounds_control_K",
+      "ecological_ci": 0.1992616260675244,
+      "carrgo_ci": 0.19778835034404776,
+      "fixed_dose_ci": 0.1981455212036968,
+      "ecological_wins": 4
+    }
+  ],
+  "comparisons": {
+    "primary_0_4h": {
+      "conditions": 12,
+      "ecological_wins": 1
+    },
+    "open_loop_0_1.0h": {
+      "conditions": 3,
+      "ecological_wins": 1
+    },
+    "open_loop_0_2.0h": {
+      "conditions": 3,
+      "ecological_wins": 1
+    },
+    "open_loop_0_4.25h": {
+      "conditions": 3,
+      "ecological_wins": 2
+    },
+    "frozen_lambda_4h": {
+      "conditions": 18,
+      "ecological_wins": 8,
+      "mean_rmse_od": [
+        0.0628069368886565,
+        0.07471969780034905
+      ]
+    },
+    "frozen_to_HT1080": [
+      0.5865816339648823,
+      0.5188199013482536
+    ],
+    "frozen_to_PBT138": [
+      1.6998341663004968,
+      1.0152994983128394
+    ]
+  },
+  "lt6": [
+    {
+      "model": "CARRGO",
+      "strategy": "joint_1",
+      "cd33": 177504.5485986496,
+      "cd3": 5095.376462792466,
+      "rises": 11,
+      "conditions": 12
+    },
+    {
+      "model": "Shah_BD",
+      "strategy": "joint_1",
+      "cd33": 134300.4954284934,
+      "cd3": 4593.672591542501,
+      "rises": 12,
+      "conditions": 12
+    },
+    {
+      "model": "growth_only_constant",
+      "strategy": "reference",
+      "cd33": 81648.32690326367,
+      "cd3": 5018.94638767778,
+      "rises": 0,
+      "conditions": 12
+    },
+    {
+      "model": "growth_only_timewise",
+      "strategy": "reference",
+      "cd33": 81648.32690326367,
+      "cd3": 2038.7322308278956,
+      "rises": 12,
+      "conditions": 12
+    },
+    {
+      "model": "original_FA",
+      "strategy": "joint_1",
+      "cd33": 197580.20301397055,
+      "cd3": 4990.320751888879,
+      "rises": 12,
+      "conditions": 12
+    },
+    {
+      "model": "original_FA",
+      "strategy": "near_5pct",
+      "cd33": 83610.59249931427,
+      "cd3": 5025.062047257156,
+      "rises": 10,
+      "conditions": 12
+    },
+    {
+      "model": "original_FA",
+      "strategy": "target_only",
+      "cd33": 81634.21803247998,
+      "cd3": 6098.883347793828,
+      "rises": 0,
+      "conditions": 12
+    }
+  ],
+  "target_only_vectors": 24,
+  "rankings_preserved": 72,
+  "max_wt16_replay_error_counts": {
+    "target_only": 1.4390017895493656e-05,
+    "joint_1": 1.1375323083484545e-07
+  }
+}

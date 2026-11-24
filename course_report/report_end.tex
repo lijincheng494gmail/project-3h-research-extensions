@@ -1,0 +1,38 @@
+\section{Discussion and conclusions}\label{sec:discussion}
+The invasion threshold separates the conditions for coexistence from the kind of coexistence that follows. For \(R\le1\), every positive trajectory approaches the predator-free state. At equality the decay of the predator is of order \(t^{-1}\). For \(R>1\), both species persist. The analysis of \(F(x)+C/x\) explains how an increase in prey growth at low density can lead to three feasible equilibria. When the outer equilibria attract and cycles are excluded, the initial populations determine the long-run state through their position relative to the saddle separatrix.
+
+The parameters \(\alpha\) and \(\beta\) influence distinct parts of this mechanism. Increasing \(\alpha\) increases the initial slope of per-capita prey growth and can permit the turning points of the equilibrium curve. Increasing \(\beta\), with other dimensional inputs fixed, lowers the predator invasion ratio and changes the constant term of the coexistence cubic. These statements concern the current response \(mxy/(\beta+y)\), whose interpretation follows directly from that denominator. The displayed predator equation has no separate quadratic mortality term. Adding such a term changes the predator nullcline and requires recalculating both the root and stability conditions.
+
+The Hopf cases show that varying either predation or carrying capacity can destabilize a coexistence equilibrium and produce local attracting oscillations along specified parameter paths. For enrichment this agrees qualitatively with one mechanism discussed by \citet{haque11}; the transition depends on the parameter path and the response function. The numerical loss of stability does not itself predict predator extinction or establish the large-amplitude fate of a periodic branch. Conversely, a periodic trajectory obtained by integration does not prove uniqueness. Our one-orbit case uses a separate global criterion with its hypotheses checked at the chosen inputs.
+
+The literature-informed results show how changing \(r\) affects equilibrium levels and transient shapes under a common illustrative setting. A field prediction would require independent estimates of predation, conversion, interference, mortality and observation scales for each species pair. The stochastic results concern small displacements about a coexistence state in the two stated noise models. The global count of cycles outside the certified regions, continuation far from the codimension-two points, and the zero-trace triple root remain open here.
+
+\clearpage
+\appendix
+\section{Formula sheet and figure code}\label{sec:figurecode}
+\begin{table}[!htbp]\centering
+\caption{Quantities used to move from a parameter set to the corresponding stability test.}
+\label{tab:formulasheet}
+\begin{tabularx}{\linewidth}{@{}lY@{}}\toprule
+Quantity & Definition and use\\ \midrule
+Invasion & \(R=emk/(d\beta)\). The predator grows when rare at \(E_1\) precisely when \(R>1\).\\
+Coexistence & \(Q(x)=x[F(x)-m]+C\) with \(C=d\beta/e\). Keep roots \(C/m<x<k\) and set \(y=emx/d-\beta\).\\
+Local stability & \(T=xF'(x)-dF(x)/m\) and \(\Det=-(dF(x)/m)Q'(x)\) at a feasible root.\\
+Cycle exclusion & \(A=\alpha k\), \(M=m/r\), \(D=d/r\). The first Dulac bound is \(D\ge M\chi(A)\).\\
+Hopf threshold & At a simple equilibrium, \(T=0\) and \(\Det>0\). Check the along-branch crossing derivative and the cubic focal coefficient.\\
+\bottomrule\end{tabularx}
+\end{table}
+
+The paths in Table~\ref{tab:figurepaths} are relative to the root of the accompanying source package. Its data directory contains machine-readable parameter sets and numerical diagnostics. The figure scripts regenerate the plots from the model and the recorded inputs.
+
+\input{figure_paths}
+\clearpage
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+\clearpage
+\section{Research Extensions}\label{sec:extensions}
+\input{../front-results}
+\medskip
+
+\noindent The companion \textit{Appendix --- Research Extensions} gives the figures, proofs, Python calculations, and Lean verification results for each study.
+\end{document}

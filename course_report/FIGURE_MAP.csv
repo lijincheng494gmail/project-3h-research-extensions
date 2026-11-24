@@ -1,0 +1,12 @@
+document,figure,pdf_page,figure_file,python_entry_point
+Project_3H_Report.pdf,1,15,figures/num_invasion.pdf,code/numerical_study.py
+Project_3H_Report.pdf,2,15,figures/num_basins.pdf,code/numerical_study.py
+Project_3H_Report.pdf,3,16,figures/num_hopf.pdf,code/numerical_study.py
+Project_3H_Report.pdf,4,17,figures/num_two_parameters.pdf,code/numerical_study.py
+Project_3H_Report.pdf,5,17,figures/num_cycle.pdf,code/numerical_study.py
+Project_3H_Report.pdf,6,18,figures/analytical_cycles.pdf,code/analytical_diagram.py
+Project_3H_Report.pdf,7,18,figures/num_bautin.pdf,code/numerical_study.py
+Project_3H_Report.pdf,8,20,figures/lit_growth_rates.pdf,code/literature_cases.py
+Project_3H_Report.pdf,9,21,figures/stoch_moments.pdf,code/stochastic_stability.py
+Proof_Supplement.pdf,1,27,figures/analytical_branches.pdf,code/analytical_diagram.py
+Proof_Supplement.pdf,2,28,figures/analytical_cycles.pdf,code/analytical_diagram.py
